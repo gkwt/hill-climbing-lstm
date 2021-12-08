@@ -4,6 +4,7 @@ import multiprocessing
 import torch
 import pytorch_lightning as pl
 
+import rdkit.Chem as Chem
 import selfies as sf
 
 class SELFIESDataset(torch.utils.data.Dataset):
@@ -25,11 +26,13 @@ class SELFIESDataset(torch.utils.data.Dataset):
         encoding = sf.selfies_to_encoding(
             self.sf_list[idx],
             vocab_stoi = self.vocab,
-            pad_to_len = self.len_molecule,
+            pad_to_len = self.len_molecule + 1,     # add 1 padding for target sequence
             enc_type = 'one_hot'
         )
+        feature = torch.LongTensor(encoding[:-1])
+        target = torch.LongTensor(encoding[1:])     # targets are shifted by one character
 
-        return torch.LongTensor(encoding)
+        return feature, target
 
 # class SMILESDataset(torch.utils.data.Dataset):
     #TODO
@@ -49,6 +52,7 @@ class SELFIESDataModule(pl.LightningDataModule):
         alphabet = sf.get_alphabet_from_selfies(sf_list)
         alphabet.add("[nop]")
         alphabet = list(sorted(alphabet))
+        self.alphabet = alphabet
         self.vocab = {s: i for i, s in enumerate(alphabet)}
         self.inv_vocab = {v: k  for k, v in self.vocab.items()}
 
@@ -62,10 +66,40 @@ class SELFIESDataModule(pl.LightningDataModule):
         self.train_set, self.valid_set = torch.utils.data.random_split(self.dataset, [train_size, valid_size])
 
     def train_dataloader(self):
-        return torch.utils.data.DataLoader(self.train_set, batch_size = self.batch_size, shuffle = True)
+        return torch.utils.data.DataLoader(self.train_set, batch_size = self.batch_size, shuffle = True, 
+            num_workers = self.num_workers)
     
     def val_dataloader(self):
-        return torch.utils.data.DataLoader(self.valid_set, batch_size = self.batch_size)
+        return torch.utils.data.DataLoader(self.valid_set, batch_size = self.batch_size, 
+            num_workers = self.num_workers)
+
+    def encode_string(self, inp_str: str, len_string: int):
+        ''' Encode an input string into selfies.
+        '''
+        encoding = sf.selfies_to_encoding(
+            inp_str,
+            vocab_stoi = self.vocab,
+            pad_to_len = len_string,
+            enc_type = 'one_hot'
+        )
+        return torch.LongTensor(encoding)
+
+    def logits_to_smiles(self, logits: torch.Tensor):
+        ''' Turns a list of logits into a list of canonical smiles.
+        '''
+        labels = logits.argmax(dim=-1).numpy()
+        smi_list = []
+
+        for enc in labels:
+            sfs = sf.encoding_to_selfies(
+                enc,
+                vocab_itos = self.inv_vocab,
+                enc_type = 'label'
+            )
+            smi = Chem.CanonSmiles(sf.decoder(sfs))
+            smi_list.append(smi)
+
+        return smi_list
 
 # class SMILESDataModule(pl.LightningDataModule):
     #TODO

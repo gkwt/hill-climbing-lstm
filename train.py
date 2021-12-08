@@ -1,47 +1,23 @@
 import os
-from typing import List, Tuple
 
-import pandas as pd
+import torch
 import pytorch_lightning as pl
 from pytorch_lightning.callbacks import EarlyStopping, ModelCheckpoint
 from pytorch_lightning.loggers import CSVLogger
 
 import rdkit.Chem as Chem
 import selfies as sf
+import pandas as pd
 
-from datamodules import SELFIESDataModule
-from network import LanguageModel
-
-def sanitize_smiles(smi: str) -> str:
-    if smi == '':
-        return None
-    try:
-        mol = Chem.MolFromSmiles(smi)
-        return Chem.MolToSmiles(mol, isomericSmiles=False, canonical=True)
-    except:
-        return None
-
-def get_lists(data_path: str, sep: str, header: int = None, 
-        smiles_name: int = 0) -> Tuple[List[str], List[str]]:
-    ''' Get smi_list from data specified at data_path.
-    May require change by user if format is different.
-    '''
-    data = pd.read_csv(data_path, sep=sep, header=header) 
-    data[smiles_name] = data[smiles_name].apply(sanitize_smiles)
-    data = data.dropna()
-
-    smi_list = data[smiles_name].tolist()
-    sfs_list = data[smiles_name].apply(sf.encoder).tolist()
-    return smi_list, sfs_list
-    
+from lstm_climber import SELFIESDataModule, LanguageModel
+import lstm_climber.utils as utils
 
 # define parameters
 data_path       = 'data/hce.txt'
 string_type     = 'selfies'
 
-
 # get the data
-smi_list, sfs_list = get_lists(data_path, sep=' ')
+smi_list, sfs_list = utils.get_lists(data_path, sep=' ')
 if string_type == 'selfies':
     str_list = sfs_list
     dm = SELFIESDataModule(str_list, train_ratio = 0.7, batch_size = 128, num_workers = None)
@@ -69,10 +45,13 @@ callbacks = [
 ]
 
 trainer = pl.Trainer(
-    accelerator = 'auto', 
+    accelerator = 'gpu', 
+    devices = torch.cuda.device_count(),
     logger=logger,
-    max_epochs = 10, 
+    max_epochs = 100, 
     callbacks = callbacks,
-    enable_progress_bar = True
+    enable_progress_bar = False
 )
 trainer.fit(model, dm)
+
+print('Done!')
