@@ -9,21 +9,22 @@ import rdkit.Chem as Chem
 import selfies as sf
 import pandas as pd
 
-from lstm_climber import SELFIESDataModule, LanguageModel
+from lstm_climber import SELFIESDataModule, SMILESDataModule, LanguageModel
 import lstm_climber.utils as utils
 
 # define parameters
 data_path       = 'data/hce.txt'
-string_type     = 'selfies'
+string_type     = 'smiles'  # 'selfies'
+num_workers     = 6
 
 # get the data
 smi_list, sfs_list = utils.get_lists(data_path, sep=' ')
 if string_type == 'selfies':
     str_list = sfs_list
-    dm = SELFIESDataModule(str_list, train_ratio = 0.7, batch_size = 128, num_workers = None)
+    dm = SELFIESDataModule(str_list, batch_size = 128, num_workers = num_workers)
 elif string_type == 'smiles':
     str_list = smi_list
-    # dm = SMILESDataModule(str_list)
+    dm = SMILESDataModule(str_list, batch_size = 128, num_workers = num_workers)
 else:
     raise ValueError('No such string representation.')
 
@@ -32,6 +33,7 @@ print(f'You are using the "{string_type}" representation.')
 print(f'Number of molecules: {len(str_list)}')
 print(f'Length of longest molecule: {dm.len_molecule}')
 print(f'Length of alphabet: {dm.len_alphabet}')
+print(f'Alphabet: {dm.alphabet}')
 
 # create model
 model = LanguageModel(1024, 3, dm.len_alphabet, dm.len_molecule)
@@ -53,5 +55,8 @@ trainer = pl.Trainer(
     enable_progress_bar = False
 )
 trainer.fit(model, dm)
+print('Finished training!')
+
+metrics = utils.plot_metrics(os.path.join(logger.log_dir, 'metrics.csv'), logger.log_dir)
 
 print('Done!')
