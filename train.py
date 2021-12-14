@@ -14,7 +14,7 @@ import lstm_climber.utils as utils
 
 # define parameters
 data_path       = 'data/hce.txt'
-string_type     = 'smiles'  # 'selfies'
+string_type     = 'selfies' # 'smiles'
 num_workers     = 6
 
 # get the data

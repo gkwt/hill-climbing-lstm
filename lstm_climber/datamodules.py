@@ -130,10 +130,7 @@ class SELFIESDataModule(pl.LightningDataModule):
                 enc_type = 'label'
             )
             sfs_list.append(sfs)
-            try:
-                smi = Chem.CanonSmiles(sf.decoder(sfs))
-            except:
-                smi = None
+            smi = utils.sanitize_smiles(sf.decoder(sfs))
             smi_list.append(smi)
 
         if return_selfies:
@@ -204,10 +201,7 @@ class SMILESDataModule(pl.LightningDataModule):
                 vocab_itos = self.inv_vocab,
                 enc_type = 'label'
             )
-            try:
-                smi = Chem.CanonSmiles(smi)
-            except:
-                smi = None
+            smi = utils.sanitize_smiles(smi)
             smi_list.append(smi)
 
         return smi_list

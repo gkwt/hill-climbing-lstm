@@ -10,6 +10,10 @@ import matplotlib.pyplot as plt
 import selfies as sf
 import rdkit.Chem as Chem
 from rdkit.Chem import Draw, Descriptors
+from rdkit import RDLogger
+
+RDLogger.DisableLog("rdApp.*")
+
 
 from lstm_climber import SELFIESDataModule, SMILESDataModule, LanguageModel
 import lstm_climber.utils as utils
@@ -26,8 +30,8 @@ def fitness_function(smi: str):
 
 # define parameters
 data_path       = 'data/hce.txt'
-string_type     = 'selfies'
-model_path      = 'trained_models/selfies/version_0/final_model.ckpt'
+string_type     = 'selfies' # smiles
+model_path      = f'trained_models/{string_type}/version_0/final_model.ckpt'
 num_workers     = 6
 
 num_generations = 20
@@ -39,10 +43,10 @@ temperature     = 1.0
 smi_list, sfs_list = utils.get_lists(data_path, sep=' ')
 if string_type == 'selfies':
     str_list = sfs_list
-    dm = SELFIESDataModule(str_list, train_ratio = 0.7, batch_size = 128, num_workers = num_workers)
+    dm = SELFIESDataModule(str_list, batch_size = 128, num_workers = num_workers)
 elif string_type == 'smiles':
     str_list = smi_list
-    dm = SMILESDataModule(str_list, train_ratio = 0.7, batch_size = 128, num_workers = num_workers)
+    dm = SMILESDataModule(str_list, batch_size = 128, num_workers = num_workers)
 else:
     raise ValueError('No such string representation.')
 
@@ -71,7 +75,7 @@ for gen in range(num_generations):
         temperature += 0.05
 
     print(f'Generation {gen}:')
-    cols = ['smiles', 'selfies'] if string_type == 'selfies' else ['selfies']
+    cols = ['smiles', 'selfies'] if string_type == 'selfies' else ['smiles']
     new_df = pd.DataFrame(columns=cols)
     for i, row in topk.iterrows():
 
