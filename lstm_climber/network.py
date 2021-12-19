@@ -6,7 +6,7 @@ import torch.nn.functional as F
 from torch.distributions import Categorical
 
 class LanguageModel(pl.LightningModule):
-    def __init__(self, hidden_dim, n_layers, len_alphabet, len_molecule, vocab=None, 
+    def __init__(self, hidden_dim, n_layers, len_alphabet, len_molecule, lr = 1e-3,
             dropout = 0.2, verbose = True):
         super().__init__()
         self.save_hyperparameters()
@@ -15,9 +15,7 @@ class LanguageModel(pl.LightningModule):
         self.len_molecule = len_molecule
         self.dropout = dropout
         self.verbose = verbose
-        self.vocab = vocab
-        if self.vocab is not None:
-            self.inv_vocab = {i: c for c, i in self.vocab.items()}
+        self.learning_rate = lr
 
         self.lstm = nn.LSTM(
             self.len_alphabet, 
@@ -73,7 +71,7 @@ class LanguageModel(pl.LightningModule):
         return loss
 
     def configure_optimizers(self):
-        return torch.optim.Adam(self.parameters(), lr=1e-3)
+        return torch.optim.Adam(self.parameters(), lr=self.learning_rate)
 
     def sample(self, starting_seq, num_samples, temperature = 1.0):
         ''' Sample the model using some starting_seed (one-hot encoded)
@@ -94,8 +92,6 @@ class LanguageModel(pl.LightningModule):
             starting_seq = torch.tile(starting_seq, (num_samples, 1, 1))
             output = [starting_seq]
 
-            # import pdb; pdb.set_trace()
-
             # seeding stage
             samp_steps = self.len_molecule - len_seq
             # for i in range(num_samples):
@@ -104,7 +100,6 @@ class LanguageModel(pl.LightningModule):
                 out, hidden = self.forward(starting_seq, hidden)
                 out = out/temperature
                 out = out[:, -1, :].unsqueeze(1)     # selecting final character
-                # import pdb; pdb.set_trace()
 
                 out = out.softmax(dim=-1)
                 # dist = Categorical(out.squeeze())

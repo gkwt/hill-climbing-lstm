@@ -13,6 +13,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 def sanitize_smiles(smi: str) -> str:
+    ''' Canonicalize, remove invalid molecules, and isomeric smiles.
+    '''
     if smi == '':
         return None
     try:
@@ -39,6 +41,26 @@ def get_mols(smi_list: List[str]):
     for smi in smi_list:
         mols.append(Chem.MolFromSmiles(smi))
     return mols
+
+def randomize_smiles(smi: str, num: int = 1):
+    '''Returns random (dearomatized) SMILES given an rdkit mol object of a molecule.
+    '''
+    smi_list = []
+    if num > 1:
+        smi_list.append(smi)
+    mol = Chem.MolFromSmiles(smi)
+
+    while True:
+        Chem.Kekulize(mol)
+        # smi = Chem.MolToSmiles(mol, canonical=False, doRandom=True, isomericSmiles=False, kekuleSmiles=True) 
+        smi = Chem.MolToSmiles(mol, canonical=False, doRandom=True, isomericSmiles=False)
+        if smi not in smi_list:
+            smi_list.append(smi)
+        if num == len(smi_list):
+            break
+
+    return smi_list
+
 
 def plot_metrics(csv_log_path: str, out_path: str, metrics: List[str] = ['accuracy', 'loss']):
     data = pd.read_csv(csv_log_path)
@@ -103,7 +125,7 @@ def encoding_to_smiles(encoding: Union[List, torch.Tensor], vocab_itos: Dict, en
         smi += vocab_itos[i]
     return smi
 
-def get_nth_char(inp_str: str, n: int, string_type: str):
+def get_n_char(inp_str: str, n: int, string_type: str):
     if string_type == 'selfies':
         ind = inp_str.replace(']', '~', n-1).find(']')
         return inp_str[:ind + 1]

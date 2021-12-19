@@ -116,7 +116,7 @@ class SELFIESDataModule(pl.LightningDataModule):
         )
         return torch.LongTensor(encoding)
 
-    def logits_to_smiles(self, logits: torch.Tensor, return_selfies: bool = False):
+    def logits_to_smiles(self, logits: torch.Tensor, canonicalize: bool = True, return_selfies: bool = False):
         ''' Turns a list of logits into a list of canonical smiles.
         '''
         labels = logits.argmax(dim=-1).numpy()
@@ -130,7 +130,9 @@ class SELFIESDataModule(pl.LightningDataModule):
                 enc_type = 'label'
             )
             sfs_list.append(sfs)
-            smi = utils.sanitize_smiles(sf.decoder(sfs))
+            smi = sf.decoder(sfs)
+            if canonicalize:
+                smi = utils.sanitize_smiles(smi) 
             smi_list.append(smi)
 
         if return_selfies:
@@ -189,7 +191,7 @@ class SMILESDataModule(pl.LightningDataModule):
         )
         return torch.LongTensor(encoding)
 
-    def logits_to_smiles(self, logits: torch.Tensor):
+    def logits_to_smiles(self, logits: torch.Tensor, canonicalize: bool = True):
         ''' Turns a list of logits into a list of canonical smiles.
         '''
         labels = logits.argmax(dim=-1).numpy()
@@ -201,7 +203,8 @@ class SMILESDataModule(pl.LightningDataModule):
                 vocab_itos = self.inv_vocab,
                 enc_type = 'label'
             )
-            smi = utils.sanitize_smiles(smi)
+            if canonicalize:
+                smi = utils.sanitize_smiles(smi)
             smi_list.append(smi)
 
         return smi_list
