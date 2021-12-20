@@ -36,10 +36,11 @@ You can change the sampling strategies by changing the keywords.
 - `num_best`: top `k` values used after sorting
 - `num_randomize`: number of randomized SELFIES generated from top `k` smiles (SMILES LSTM cannot handle randomized smiles, so the smiles are just duplicated `num_randomize` times)
 - `samps_per_seed`: number of times each of the randomized seeds are sampled
+- `num_seed_chars`: number of characters in starting sequence used for sampling. If `None`, a random number of characters from 25% to 75% of the string length is used.
 - `temperature`: controls randomness of sampling (larger is more random)
 - `retrain`: boolean that specifies whether the model is retrained on the new sampled molecules per generation
 
-Note that the total number of sampled molecules is `num_best * num_randomize * samps_per_seed`.
+Note that the total number of sampled molecules per generation is `num_best * num_randomize * samps_per_seed`.
 
 
 
