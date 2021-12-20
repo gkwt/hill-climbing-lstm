@@ -1,0 +1,338 @@
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) openmpi/4.0.3
+
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+/home/garytom/env/invest-vae/lib/python3.7/site-packages/pytorch_lightning/trainer/configuration_validator.py:118: UserWarning: You defined a `validation_step` but have no `val_dataloader`. Skipping val loop.
+  rank_zero_warn("You defined a `validation_step` but have no `val_dataloader`. Skipping val loop.")
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Set SLURM handle signals.
+
+  | Name          | Type             | Params
+---------------------------------------------------
+0 | lstm          | LSTM             | 21.1 M
+1 | linear        | Linear           | 22.6 K
+2 | loss_fn       | CrossEntropyLoss | 0     
+3 | train_vae_acc | Accuracy         | 0     
+4 | val_vae_acc   | Accuracy         | 0     
+---------------------------------------------------
+21.1 M    Trainable params
+0         Non-trainable params
+21.1 M    Total params
+84.435    Total estimated model params size (MB)
+/home/garytom/env/invest-vae/lib/python3.7/site-packages/pytorch_lightning/trainer/data_loading.py:112: UserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  f"The dataloader, {name}, does not have many workers which may be a bottleneck."
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/home/garytom/env/invest-vae/lib/python3.7/site-packages/pytorch_lightning/trainer/data_loading.py:112: UserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  f"The dataloader, {name}, does not have many workers which may be a bottleneck."
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Set SLURM handle signals.
+
+  | Name          | Type             | Params
+---------------------------------------------------
+0 | lstm          | LSTM             | 21.1 M
+1 | linear        | Linear           | 22.6 K
+2 | loss_fn       | CrossEntropyLoss | 0     
+3 | train_vae_acc | Accuracy         | 0     
+4 | val_vae_acc   | Accuracy         | 0     
+---------------------------------------------------
+21.1 M    Trainable params
+0         Non-trainable params
+21.1 M    Total params
+84.435    Total estimated model params size (MB)
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Set SLURM handle signals.
+
+  | Name          | Type             | Params
+---------------------------------------------------
+0 | lstm          | LSTM             | 21.1 M
+1 | linear        | Linear           | 22.6 K
+2 | loss_fn       | CrossEntropyLoss | 0     
+3 | train_vae_acc | Accuracy         | 0     
+4 | val_vae_acc   | Accuracy         | 0     
+---------------------------------------------------
+21.1 M    Trainable params
+0         Non-trainable params
+21.1 M    Total params
+84.435    Total estimated model params size (MB)
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Set SLURM handle signals.
+
+  | Name          | Type             | Params
+---------------------------------------------------
+0 | lstm          | LSTM             | 21.1 M
+1 | linear        | Linear           | 22.6 K
+2 | loss_fn       | CrossEntropyLoss | 0     
+3 | train_vae_acc | Accuracy         | 0     
+4 | val_vae_acc   | Accuracy         | 0     
+---------------------------------------------------
+21.1 M    Trainable params
+0         Non-trainable params
+21.1 M    Total params
+84.435    Total estimated model params size (MB)
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Set SLURM handle signals.
+
+  | Name          | Type             | Params
+---------------------------------------------------
+0 | lstm          | LSTM             | 21.1 M
+1 | linear        | Linear           | 22.6 K
+2 | loss_fn       | CrossEntropyLoss | 0     
+3 | train_vae_acc | Accuracy         | 0     
+4 | val_vae_acc   | Accuracy         | 0     
+---------------------------------------------------
+21.1 M    Trainable params
+0         Non-trainable params
+21.1 M    Total params
+84.435    Total estimated model params size (MB)
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Set SLURM handle signals.
+
+  | Name          | Type             | Params
+---------------------------------------------------
+0 | lstm          | LSTM             | 21.1 M
+1 | linear        | Linear           | 22.6 K
+2 | loss_fn       | CrossEntropyLoss | 0     
+3 | train_vae_acc | Accuracy         | 0     
+4 | val_vae_acc   | Accuracy         | 0     
+---------------------------------------------------
+21.1 M    Trainable params
+0         Non-trainable params
+21.1 M    Total params
+84.435    Total estimated model params size (MB)
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Set SLURM handle signals.
+
+  | Name          | Type             | Params
+---------------------------------------------------
+0 | lstm          | LSTM             | 21.1 M
+1 | linear        | Linear           | 22.6 K
+2 | loss_fn       | CrossEntropyLoss | 0     
+3 | train_vae_acc | Accuracy         | 0     
+4 | val_vae_acc   | Accuracy         | 0     
+---------------------------------------------------
+21.1 M    Trainable params
+0         Non-trainable params
+21.1 M    Total params
+84.435    Total estimated model params size (MB)
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Set SLURM handle signals.
+
+  | Name          | Type             | Params
+---------------------------------------------------
+0 | lstm          | LSTM             | 21.1 M
+1 | linear        | Linear           | 22.6 K
+2 | loss_fn       | CrossEntropyLoss | 0     
+3 | train_vae_acc | Accuracy         | 0     
+4 | val_vae_acc   | Accuracy         | 0     
+---------------------------------------------------
+21.1 M    Trainable params
+0         Non-trainable params
+21.1 M    Total params
+84.435    Total estimated model params size (MB)
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Set SLURM handle signals.
+
+  | Name          | Type             | Params
+---------------------------------------------------
+0 | lstm          | LSTM             | 21.1 M
+1 | linear        | Linear           | 22.6 K
+2 | loss_fn       | CrossEntropyLoss | 0     
+3 | train_vae_acc | Accuracy         | 0     
+4 | val_vae_acc   | Accuracy         | 0     
+---------------------------------------------------
+21.1 M    Trainable params
+0         Non-trainable params
+21.1 M    Total params
+84.435    Total estimated model params size (MB)
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Set SLURM handle signals.
+
+  | Name          | Type             | Params
+---------------------------------------------------
+0 | lstm          | LSTM             | 21.1 M
+1 | linear        | Linear           | 22.6 K
+2 | loss_fn       | CrossEntropyLoss | 0     
+3 | train_vae_acc | Accuracy         | 0     
+4 | val_vae_acc   | Accuracy         | 0     
+---------------------------------------------------
+21.1 M    Trainable params
+0         Non-trainable params
+21.1 M    Total params
+84.435    Total estimated model params size (MB)
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Total numbers searched per iteration: 500
+Generation 0:
+Sampling from [C][=C][C][=C][Branch2][Ring1][O][C][S][C][Branch1][=N][C][S][C][=C][C][=C][S][C][=Ring1][Branch2][Ring1][Branch1][=C][S][C][=C][C][=Ring1]: 1/5
+Sampling from [C][Branch2][Ring2][O][C][S][C][Branch2][Ring1][O][C][S][C][=Branch1][#Branch2][=C][S][C][=C][C][=Ring1][Branch2][Ring1][Branch1][C][S][C][=C][C][=Ring1][Branch1][S][C][=C][Ring1][Branch1][=C][C]: 2/5
+Sampling from [C][=C][S][C][=C][Branch2][Ring2][Ring2][S][C][=Branch1][=Branch1][=C][Ring1][Branch2][Ring1][Branch1][C][=C][C][=C][O][C][Ring1][Branch1][=C][Branch1][=N][C]: 3/5
+Sampling from [C][=C][S][C][C][Ring1][Branch1][=C][S][C][=Ring1][Branch1][C][S][C][Branch2][Ring1][=N][C][=C][C][Branch1][=Branch1][O][C][=C][Ring1][Branch1][=C][Branch1][=N][C][=C][S][C][=C][C][Ring1]: 4/5
+Sampling from [C][S][C][Branch2][Ring2][O][C][=C][C][Branch1][=Branch1][C][=C][O][Ring1][Branch1][=C][Branch1][Ring2][S][Ring1][Branch2][C][=C][C][=C][S][C][Ring1][Branch1][=C][Branch1][Ring2][S][Ring1][Branch2][C][=C][S][C][=C][C][Ring1]: 5/5
+Best in generation:     C1=Cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4ccsc34)c2C1   11.146999999999991
+Best overall:           C1=Cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4ccsc34)c2C1   11.146999999999991
+Epoch: 9        validation loss: 0.5239850282669067
+--------------------------------------------------------------------------------
+DATALOADER:0 VALIDATE RESULTS
+{'val_accuracy': 0.8600634932518005, 'val_loss': 0.5209387540817261}
+--------------------------------------------------------------------------------
+Generation 1:
+Sampling from [C][=C][C][=C][Branch2][Ring1][O][C][S][C][Branch1][=N][C][S][C][=C][C][=C]: 1/5
+Sampling from [C][S][C][Branch2][Ring2][=Branch2][C][=C][C][C][=C][C][Ring1][Branch1][=C][Branch1][Ring2][S][Ring1][Branch2][C][S][C][Branch1]: 2/5
+Sampling from [S][C][=C][C][C][Ring1][Branch1][=C][Branch2][Ring1][#C][S][C][=Ring1][Branch1][C][S][C][=Branch1][#Branch2][=C][C][C][=C][C][=Ring1][Branch2][Ring1][Branch1][C][=C][S][C][=C][C][Ring1]: 3/5
+Sampling from [C][S][C][Branch2][Ring2][O][C][S][C][Branch2][Ring1][O][C][S][C][Branch1][=N][C][S][C]: 4/5
+Sampling from [C][=C][C][C][Branch1][Ring2][S][Ring1][Branch1][=C][Branch2][Ring1][#C][S][C][=Ring1][=Branch1][C][S][C][=Branch1][#Branch2][=C][C][=Ring1][Branch1][C][=C][C][Ring1][Branch1][C][S][C][=C]: 5/5
+Best in generation:     c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4ccoc34)c2[nH]1   10.590499999999995
+Best overall:           C1=Cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4ccsc34)c2C1   11.146999999999991
+Epoch: 9        validation loss: 0.31615835428237915
+--------------------------------------------------------------------------------
+DATALOADER:0 VALIDATE RESULTS
+{'val_accuracy': 0.9288889169692993, 'val_loss': 0.3157694637775421}
+--------------------------------------------------------------------------------
+Generation 2:
+Sampling from [C][=C][C][=C][Branch2][Ring1][O][C][S][C][Branch1][=N][C][S][C][=C][C][=C][S][C][=Ring1][Branch2]: 1/5
+Sampling from [C][C][=C][S][C][Ring1][Branch1][=C][Branch2][Ring2][=N][C][=C][C][Branch1][=Branch1][C][=C][S][Ring1][Branch1][=C][Branch2][Ring1][O][C][S][C][=Branch1][#Branch2][=C][C][=Ring1][Branch1][C][=C][C][Ring1][Branch1][C][=C][S]: 2/5
+Sampling from [C][=C][C][C][C][Ring1][Branch1][=C][Branch2][Ring1][O][C][S][C][=Branch1][#Branch2][=C][S][C][=C][C][=Ring1][Branch2][Ring1][Branch1][C][S][C][=C][C][=C][S][C][Ring1][Branch1][=Ring1][Branch2][S]: 3/5
+Sampling from [S][C][=C][C][Branch1][=Branch1][S][C][=C][Ring1][Branch1][=C][Ring1][Branch2][C][=C][S][C][=C][C][Ring1][Branch1][=C][Branch2][Ring1]: 4/5
+Sampling from [C][C][Branch1][=Branch1][S][C][=C][Ring1][Branch1][=C][Branch2][Ring2][=Branch2][C][=C][C][C][=C][C][Ring1][Branch1][=C][Branch1][Ring2][S][Ring1][Branch2][C][=C][C][=C][S][C][Ring1][Branch1][=C][Branch1][Ring2][S][Ring1]: 5/5
+Best in generation:     c1cc2c(-c3sc(-c4sc(-c5scc6ccsc56)c5sccc45)c4ccsc34)scc2o1   11.323899999999995
+Best overall:           c1cc2c(-c3sc(-c4sc(-c5scc6ccsc56)c5sccc45)c4ccsc34)scc2o1   11.323899999999995
+Epoch: 9        validation loss: 0.3522040545940399
+--------------------------------------------------------------------------------
+DATALOADER:0 VALIDATE RESULTS
+{'val_accuracy': 0.9165079593658447, 'val_loss': 0.35007181763648987}
+--------------------------------------------------------------------------------
+Generation 3:
+Sampling from [C][=C][C][=C][Branch2][Ring2][O][C][S][C][Branch2][Ring1][O][C][S][C][Branch1][=N][C][S][C][=C][C][=C][S][C][=Ring1][Branch2][Ring1][Branch1][=C][S][C][=C][C][=Ring1][S][Ring1][Branch1][=C][C][=C]: 1/5
+Sampling from [C][C][Branch1][=Branch1][O][C][=C][Ring1][Branch1][=C][S][C][=Ring1][Branch2][C][S][C][Branch2][Ring1][O][C][S][C][Branch1][=N]: 2/5
+Sampling from [C][Branch2][Ring1][O][C][S][C][=Branch1][#Branch2][=C][S][C][=C][C][Ring1][Branch1][=Ring1][Branch2][C][S][C][=C][O][C][=C][C][=Ring1]: 3/5
+Sampling from [C][=C][C][C][=Branch2][Ring2][P][=C][Branch1][=N][C][=C][S][C][=C][C]: 4/5
+Sampling from [C][S][C][=C][C][Ring1][Branch1][=C][S][C][=Ring1][Branch2][C][S][C][=Branch1][#Branch2][=C][C][=Ring1][Branch1][S][C][=C][Ring1][Branch1][C][=C][C][=Branch2][Ring1][Branch1][=C][Branch1][#C][C][=C]: 5/5
+Best in generation:     c1cc2c(-c3sc(-c4sc(-c5scc6ccsc56)c5sccc45)c4ccsc34)scc2s1   11.792399999999994
+Best overall:           c1cc2c(-c3sc(-c4sc(-c5scc6ccsc56)c5sccc45)c4ccsc34)scc2s1   11.792399999999994
+Epoch: 9        validation loss: 0.35662907361984253
+--------------------------------------------------------------------------------
+DATALOADER:0 VALIDATE RESULTS
+{'val_accuracy': 0.91009521484375, 'val_loss': 0.35474058985710144}
+--------------------------------------------------------------------------------
+Generation 4:
+Sampling from [C][=C][C][=C][Branch2][Ring2][O][C][S][C][Branch2][Ring1][O][C][S][C][Branch1][=N][C][S][C][=C][C][=C][S][C][=Ring1][Branch2]: 1/5
+Sampling from [C][=C][Branch2][Ring1][=Branch2][S][C][=Branch1][=Branch2][=C][Ring1][Branch1][S][C][=C][Ring1][Branch2][C][S][C][=C]: 2/5
+Sampling from [S][C][Branch2][Ring2][=Branch2][C][S][C][=Branch1][#Branch2][=C][C][=C][S][C][Ring1][Branch1][=Ring1][Branch2][C][S][C][=Branch1][#Branch2][=C][C][=Ring1][Branch1][C][=C]: 3/5
+Sampling from [C][C][=C][S][C][Ring1][Branch1][=C][Branch1][=N][C][=C][C][=C]: 4/5
+Sampling from [S][C][=C][C][=C][Branch2][Ring1][=N][C][=C][C][=C][S][C][Ring1][Branch1][=C][Branch1][#C][C][=C][C][=Branch1][Branch1][=C][S][Ring1][Branch1][S][C][=C][Ring1][#Branch1][S][Ring1][S][S]: 5/5
+Best in generation:     C1=Cc2c(csc2-c2sc(-c3sc(-c4scc5ccsc45)c4sccc34)c3ccsc23)N=1   10.905699999999994
+Best overall:           c1cc2c(-c3sc(-c4sc(-c5scc6ccsc56)c5sccc45)c4ccsc34)scc2s1   11.792399999999994
+Epoch: 9        validation loss: 0.4836701452732086
+--------------------------------------------------------------------------------
+DATALOADER:0 VALIDATE RESULTS
+{'val_accuracy': 0.8656507730484009, 'val_loss': 0.4840961992740631}
+--------------------------------------------------------------------------------
+Generation 5:
+Sampling from [C][=C][C][=C][Branch2][Ring2][O][C][S][C][Branch2][Ring1][O][C][S][C][Branch1][=N][C][S][C][=C][C][=C][S][C][=Ring1][Branch2][Ring1][Branch1][=C][S]: 1/5
+Sampling from [C][S][C][=C][C][Ring1][Branch1][=C][Branch1][P][S][C][=Ring1][Branch2][C][=C][C][=C][S][C][Ring1][Branch1][=C][S][Ring1][Branch2][C][S][C][=Branch1][#Branch2][=C]: 2/5
+Sampling from [C][S][C][C][Branch1][Ring2][C][=Ring1][Branch1][=C][Branch1][P][S][C][=Ring1][=Branch1][C][S][C][=C][C][=Ring1][Branch1][S][C][=C][Ring1][Branch1]: 3/5
+Sampling from [C][Branch1][N][S][C][=C][C][=Ring1][Branch1][C][=C][S][Ring1][Branch1][C][S][C][Branch2][Ring1][O][C][S][C][Branch1][=N][C][=C][S][C][=C][C][Ring1][Branch1][=C]: 4/5
+Sampling from [S][C][=C][C][C][Ring1][Branch1][=C][Branch2][Ring2][O][C][=C][C][Branch1][=Branch1][C][=C][S][Ring1][Branch1][=C][Branch1][Ring2][S][Ring1][Branch2][C][S][C][Branch1][=N][C][S][C][=C][S][C][=C][C]: 5/5
+Best in generation:     C=CC=C(CSC(SCc1cccs1)c1sc(-c2scc3ccsc23)c2sccc12)C1CC=CS1   11.764299999999984
+Best overall:           c1cc2c(-c3sc(-c4sc(-c5scc6ccsc56)c5sccc45)c4ccsc34)scc2s1   11.792399999999994
+Epoch: 9        validation loss: 0.2857729196548462
+--------------------------------------------------------------------------------
+DATALOADER:0 VALIDATE RESULTS
+{'val_accuracy': 0.9324444532394409, 'val_loss': 0.2849210202693939}
+--------------------------------------------------------------------------------
+Generation 6:
+Sampling from [C][=C][C][=C][Branch2][Ring2][O][C][S][C][Branch2][Ring1][O][C][S][C]: 1/5
+Sampling from [C][S][C][=C][S][C][=Branch1][#Branch1][=C][Ring1][Branch1][C][=Ring1][Branch2][C][=C][S][C][=C][C][Ring1][Branch1][=C][Branch2][Ring1][=N][C][S][C][=Branch1][#Branch2][=C][S][C][=C][C]: 2/5
+Sampling from [C][S][C][C][=Branch2][Ring2][P][=C][Branch2][Ring1][Ring1][S][C][=Ring1][Branch1][C][=C][C][=Branch1][Branch1][=C][S][Ring1][Branch1][S][C][=C][Ring1][#Branch1][C][=C][C][=C][S][C][Ring1][Branch1][=C][Branch1][Ring2][S][Ring1][Branch2]: 3/5
+Sampling from [C][=C][S][C][C][Ring1][Branch1][=C][Branch2][Ring1][=N][C][=C][C][Branch1][=Branch1][S][C][=C][Ring1][Branch1][=C][Branch1][=N]: 4/5
+Sampling from [C][S][C][=C][C][Ring1][Branch1][=C][S][C][=Ring1][Branch2][C][S][C][=Branch1][#Branch2]: 5/5
+Best in generation:     C=CC=CCSC1=C2SC=CC2SCCSCCSC=CCc2cc3c1sc(-c1scc4ccsc14)c3s2   11.948499999999983
+Best overall:           C=CC=CCSC1=C2SC=CC2SCCSCCSC=CCc2cc3c1sc(-c1scc4ccsc14)c3s2   11.948499999999983
+Epoch: 9        validation loss: 0.30525851249694824
+--------------------------------------------------------------------------------
+DATALOADER:0 VALIDATE RESULTS
+{'val_accuracy': 0.9172698259353638, 'val_loss': 0.30461424589157104}
+--------------------------------------------------------------------------------
+Generation 7:
+Sampling from [C][=C][C][=C][C][S][C][=C][S][C][=C][C][Ring1][Branch1][S][C][C][S][C][C][S][C]: 1/5
+Sampling from [C][Branch2][Ring2][#C][C][=C][S][C][=C][C][Ring1][Branch1][=C][Branch1][Ring2][S][Ring1][Branch2][C][=Branch2]: 2/5
+Sampling from [C][S][C][=C][C][C][=C][C][C][Branch1][Ring2][S][Ring1][Branch1][=C][Branch2][Ring1][=N][S][C][=Ring1][=Branch1][C][Branch1][#Branch1][S]: 3/5
+Sampling from [C][C][=Branch2][Branch1][Ring2][=C][Branch1][#Branch1][S][C][C][=C][C][=C][C][=C][C][=C][Branch2][Ring1][#Branch1][S][C][Ring1][Branch1][=C][Branch1][Ring2][S][Ring1][Branch2][C][S][C][=C][C][=C][S][C][Ring1][Branch1][=Ring1][Branch2][C]: 4/5
+Sampling from [C][=C][Branch2][Branch1][C][C][=C][C][=C][Branch2][Ring2][#Branch1][C][=Branch2][Ring1][=N][=C][S][C][=C][C][Ring1][Branch1][S][C]: 5/5
+Best in generation:     C=CC=CCSC(=CC)c1sc(-c2scc3ccsc23)c2sc(C=C3SSC=C3C)cc12   11.381899999999986
+Best overall:           C=CC=CCSC1=C2SC=CC2SCCSCCSC=CCc2cc3c1sc(-c1scc4ccsc14)c3s2   11.948499999999983
+Epoch: 9        validation loss: 0.4958246350288391
+--------------------------------------------------------------------------------
+DATALOADER:0 VALIDATE RESULTS
+{'val_accuracy': 0.8553650975227356, 'val_loss': 0.49605461955070496}
+--------------------------------------------------------------------------------
+Generation 8:
+Sampling from [C][=C][C][=C][C][S][C][=C][S][C][=C][C][Ring1][Branch1][S][C][C][S][C][C][S][C]: 1/5
+Sampling from [S][C][=C][Branch1][#C][C][=C][C][Branch1][=Branch1][C][=C][S][Ring1][Branch1][=C][S][Ring1][Branch2][S][C][C]: 2/5
+Sampling from [C][C][=C][S][C][Ring1][Branch1][=C][Branch2][Ring2][=C][C][=C][S][C][=C][C][Ring1][Branch1][=C][Branch1][Ring2]: 3/5
+Sampling from [C][C][C][S][C][=C][Branch2][Ring2][#Branch2][S][C][Branch2][Ring1][=N][C][=Branch2][Ring1][Ring1][=C][S][C][=C][C][Ring1][Branch1][S][C][C][S][C][C][S][C][=Ring2][Ring1][=Branch1][S][C][C][=C][C][=C]: 4/5
+Sampling from [C][C][Branch1][#Branch1][S][C][C][=C][C][=C][=C][S][C][=C][C][Ring1][Branch1][S][C][C][S][C][C][S][C][=C][C][C][S][C][Branch1][Branch2][C][=Ring2][Ring1][O][C][=Ring1][Branch1][=C][Branch1][Branch1][S][Ring2]: 5/5
+Best in generation:     CC(=C1CC=CS1)c1sc(-c2sc(C3SC4[Se]Cc5cc3c4s5)c3sccc23)c2ccsc12   10.401699999999991
+Best overall:           C=CC=CCSC1=C2SC=CC2SCCSCCSC=CCc2cc3c1sc(-c1scc4ccsc14)c3s2   11.948499999999983
+Epoch: 9        validation loss: 0.49902400374412537
+--------------------------------------------------------------------------------
+DATALOADER:0 VALIDATE RESULTS
+{'val_accuracy': 0.8681269884109497, 'val_loss': 0.4946596026420593}
+--------------------------------------------------------------------------------
+Generation 9:
+Sampling from [C][=C][C][=C][C][S][C][=C][S][C][=C][C][Ring1][Branch1][S][C][C][S][C][C][S][C][=C][C][C][=C][C][=C]: 1/5
+Sampling from [C][C][C][=C][S][C][C][S][C][C][S][C][C][=Branch2][Ring2][N][=C][Branch2][Ring2][C][C][=C][Branch1][Ring2][C][=Ring1]: 2/5
+Sampling from [C][S][C][C][S][C][=C][C][C][S][C][C][=Branch2][Ring2][O][=C][Branch2][Ring1][=Branch1][C][Branch1][#Branch1]: 3/5
+Sampling from [C][=C][Branch2][Ring2][N][C][S][C][C][=Branch2][Ring1][#C][=C][S][C][=C][C][Ring1][Branch1][S][C][C][S][C][C][S][C]: 4/5
+Sampling from [C][Branch1][Branch1][C][=C][C][=C][S][C][C][S][C][Branch1][=N][C]: 5/5
+Best in generation:     CC=CSC=CCSC1CSc2c(C=CC=CSC=CCSCC3=CC=C(CSCCSCCSC=CCC)C3)csc21   13.295399999999972
+Best overall:           CC=CSC=CCSC1CSc2c(C=CC=CSC=CCSCC3=CC=C(CSCCSCCSC=CCC)C3)csc21   13.295399999999972
+Epoch: 9        validation loss: 0.5265842080116272
+--------------------------------------------------------------------------------
+DATALOADER:0 VALIDATE RESULTS
+{'val_accuracy': 0.8530158996582031, 'val_loss': 0.526552677154541}
+--------------------------------------------------------------------------------
+
+real	2m14.851s
+user	3m33.311s
+sys	0m16.871s

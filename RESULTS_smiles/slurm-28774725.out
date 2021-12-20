@@ -1,0 +1,142 @@
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) openmpi/4.0.3
+
+Total numbers searched per iteration: 500
+Generation 0:
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34: 1/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45: 2/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sc: 3/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc4: 4/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc3: 5/10
+Sampling from c1cc(-c2sc(-c3sc(-: 6/10
+Sampling from c1cc(-c2sc(-c3s: 7/10
+Sampling from c1cc(-c2sc(-c3: 8/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5scc: 9/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc: 10/10
+Best in generation:     c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c2s1                            11.792399999999994
+Best overall:           c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c2s1                            11.792399999999994
+Generation 1:
+Sampling from c1cc2c(-c3sc(-c4scc5c: 1/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c2s: 2/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4: 3/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3: 4/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4: 5/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1   : 6/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c: 7/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2: 8/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc: 9/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sc: 10/10
+Best in generation:     c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c2s1                            11.792399999999994
+Best overall:           c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c2s1                            11.792399999999994
+Generation 2:
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4: 1/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c2: 2/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(: 3/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccs: 4/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc4: 5/10
+Sampling from c1cc2c(-c3sc(-c4scc5cc: 6/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc3: 7/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4: 8/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4: 9/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34): 10/10
+Best in generation:     c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c2s1                            11.792399999999994
+Best overall:           c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c2s1                            11.792399999999994
+Generation 3:
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3: 1/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c2s1  : 2/10
+Sampling from c1cc2c(-c3sc(-c4scc5c: 3/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4scc: 4/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45: 5/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc3: 6/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc3: 7/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4: 8/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c2s1: 9/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-: 10/10
+Best in generation:     c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c2s1                            11.792399999999994
+Best overall:           c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c2s1                            11.792399999999994
+Generation 4:
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(: 1/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c2: 2/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34): 3/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c: 4/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-: 5/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc3: 6/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c2: 7/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c2s1 : 8/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc: 9/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3sc: 10/10
+Best in generation:     c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c2s1                            11.792399999999994
+Best overall:           c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c2s1                            11.792399999999994
+Generation 5:
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c: 1/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sc: 2/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34: 3/10
+Sampling from c1cc2c(-c3sc(-c4scc5cc: 4/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sc: 5/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3s: 6/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)s: 7/10
+Sampling from c1cc2c(-c3sc(-c4scc5c: 8/10
+Sampling from c1cc2c(-c3sc(-c4scc5cc: 9/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3sc: 10/10
+Best in generation:     c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c2s1                            11.792399999999994
+Best overall:           c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c2s1                            11.792399999999994
+Generation 6:
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(: 1/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4scc: 2/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c2s1    : 3/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c: 4/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c: 5/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc3: 6/10
+Sampling from c1cc2c(-c3sc(-c4scc5c: 7/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c: 8/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccs: 9/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45: 10/10
+Best in generation:     c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3sc(-c4cncs4)c4ccoc34)c2o1                  11.978899999999992
+Best overall:           c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3sc(-c4cncs4)c4ccoc34)c2o1                  11.978899999999992
+Generation 7:
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34): 1/10
+Sampling from c1cc2c(-c3sc(-c4scc5cc: 2/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3sc(-c4cncs: 3/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3sc(-c4cncs4)c4ccoc: 4/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3sc(: 5/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45: 6/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c2s1: 7/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc4: 8/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3scc4sccc34)c2s1   : 9/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4: 10/10
+Best in generation:     c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3sc(-c4scc5sccc45)c4sccc34)c2o1             14.26709999999999
+Best overall:           c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3sc(-c4scc5sccc45)c4sccc34)c2o1             14.26709999999999
+Generation 8:
+Sampling from c1cc2c(-c3sc(-c4scc5ccs: 1/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc3: 2/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45: 3/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4scc: 4/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3sc(: 5/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-: 6/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45: 7/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3sc(-c4scc5ccs: 8/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c: 9/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45): 10/10
+Best in generation:     c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3sc(-c4scc5occc45)c4sccc34)c2s1             14.26709999999999
+Best overall:           c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3sc(-c4scc5sccc45)c4sccc34)c2o1             14.26709999999999
+Generation 9:
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3sc(: 1/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3s: 2/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3sc(-c4scc5s: 3/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3sc(-c4scc5s: 4/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc: 5/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-: 6/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(: 7/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-: 8/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3sc(-c4scc: 9/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3sc(-c4s: 10/10
+Best in generation:     c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3sc(-c4scc5sccc45)c4ccsc34)c2o1             14.26709999999999
+Best overall:           c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c3sc(-c4scc5sccc45)c4sccc34)c2o1             14.26709999999999
+
+real	1m38.885s
+user	6m20.552s
+sys	0m7.646s

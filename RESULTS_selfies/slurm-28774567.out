@@ -1,0 +1,92 @@
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) openmpi/4.0.3
+
+Total numbers searched per iteration: 500
+Generation 0:
+Sampling from [C][=C][C][=C][Branch2][Ring1][O][C][S][C][Branch1][=N][C][S][C][=C][C][=C]: 1/5
+Sampling from [C][Branch2][Ring2][O][C][S][C][Branch2][Ring1][O][C][S][C][=Branch1][#Branch2][=C][S]: 2/5
+Sampling from [C][=C][S][C][=C][Branch2][Ring2][Ring2][S][C][=Branch1][=Branch1][=C][Ring1][Branch2][Ring1][Branch1][C][=C][C][=C][O][C][Ring1][Branch1][=C][Branch1][=N][C][=C][S][C][=C][C][Ring1][Branch1][=C][S]: 3/5
+Sampling from [C][=C][S][C][C][Ring1][Branch1][=C][S][C][=Ring1][Branch1][C][S][C][Branch2][Ring1][=N][C][=C][C][Branch1][=Branch1][O][C][=C][Ring1][Branch1][=C][Branch1][=N][C]: 4/5
+Sampling from [C][S][C][Branch2][Ring2][O][C][=C][C][Branch1][=Branch1][C][=C][O][Ring1][Branch1][=C][Branch1][Ring2][S][Ring1]: 5/5
+Best in generation:     c1cc2c(-c3sc(-c4scc5ccsc45)c4occc34)sc(-c3scc4ccsc34)c2o1   10.855399999999994
+Best overall:           c1cc2c(-c3sc(-c4scc5ccsc45)c4occc34)sc(-c3scc4ccsc34)c2o1   10.855399999999994
+Generation 1:
+Sampling from [C][=C][C][=C][Branch2][Ring1][O][C][S][C][Branch1][=N][C][S][C][=C][C][=C][S][C][=Ring1][Branch2][Ring1][Branch1][=C][O][C][=C][C][=Ring1][S][Ring1][Branch1][S][C][Branch1][=N][C][S][C]: 1/5
+Sampling from [C][S][C][Branch2][Ring2][=Branch2][C][=C][O][C][=C][C][Ring1][Branch1][=C][Branch1][Ring2][S]: 2/5
+Sampling from [O][C][=C][C][C][Ring1][Branch1][=C][Branch2][Ring1][#C][S][C][=Ring1]: 3/5
+Sampling from [C][S][C][Branch2][Ring2][O][C][S][C][Branch2][Ring1][O][C][S][C][Branch1][=N][C][S][C][=C][C][=Ring1][Branch1][S][C][=C][Ring1][Branch1][=C][C][=Ring1][=N][C][=C][O][Ring1][Branch1]: 4/5
+Sampling from [C][=C][C][C][Branch1][Ring2][O][Ring1][Branch1][=C][Branch2][Ring1][#C][S][C][=Ring1][=Branch1][C][S][C][=Branch1][#Branch2][=C][C][=Ring1][Branch1][C][=C][O][Ring1][Branch1][C][S][C][=C][C][=C][S][C][Ring1]: 5/5
+Best in generation:     c1cc2csc(-c3sc(-c4sc(-c5scc6ccsc56)c5occc45)c4ccsc34)c2o1   10.855399999999992
+Best overall:           c1cc2c(-c3sc(-c4scc5ccsc45)c4occc34)sc(-c3scc4ccsc34)c2o1   10.855399999999994
+Generation 2:
+Sampling from [C][=C][C][=C][Branch2][Ring1][O][C][S][C][Branch1][=N][C][S][C][=C][C][=C][S][C][=Ring1][Branch2][Ring1][Branch1][=C][O][C][=C][C][=Ring1][S][Ring1][Branch1][S][C][Branch1][=N]: 1/5
+Sampling from [C][C][=C][S][C][Ring1][Branch1][=C][Branch2][Ring2][=N][C][=C][C][Branch1][=Branch1][C][=C][O][Ring1][Branch1][=C][Branch2][Ring1][O][C][S][C][=Branch1][#Branch2][=C][C][=Ring1][Branch1][C][=C][O][Ring1][Branch1][C][=C]: 2/5
+Sampling from [C][=C][O][C][C][Ring1][Branch1][=C][Branch2][Ring1][O][C][S][C][=Branch1][#Branch2][=C][O][C][=C][C][=Ring1][Branch2][Ring1][Branch1][C][S][C][=C][C][=C][S]: 3/5
+Sampling from [S][C][=C][C][Branch1][=Branch1][S][C][=C][Ring1][Branch1][=C][Ring1][Branch2][C][=C][O][C][=C][C][Ring1][Branch1][=C][Branch2][Ring1][O][C][S][C][=Branch1][#Branch2][=C][C][=Ring1][Branch1][C][=C][O]: 4/5
+Sampling from [C][C][Branch1][=Branch1][S][C][=C][Ring1][Branch1][=C][Branch2][Ring2][=Branch2][C][=C][O][C][=C][C][Ring1][Branch1][=C][Branch1][Ring2][S][Ring1][Branch2][C][=C][C][=C][O][C][Ring1][Branch1]: 5/5
+Best in generation:     C1=Cc2c(-c3sc(-c4scc5ccsc45)c4occc34)sc(-c3scc4sccc34)c2C1   10.67849999999999
+Best overall:           c1cc2c(-c3sc(-c4scc5ccsc45)c4occc34)sc(-c3scc4ccsc34)c2o1   10.855399999999994
+Generation 3:
+Sampling from [C][=C][C][=C][Branch2][Ring1][O][C][S][C][Branch1][=N][C][S][C][=C][C][=C][S][C][=Ring1][Branch2][Ring1][Branch1][=C][O][C][=C][C][=Ring1][S][Ring1]: 1/5
+Sampling from [C][C][Branch1][=Branch1][O][C][=C][Ring1][Branch1][=C][Branch2][Ring2][C][S][C][=Ring1][Branch2][C][=C][C][=Branch2][Ring1][Ring1][=C][Branch1][=N]: 2/5
+Sampling from [C][Branch2][Ring2][#C][C][=C][C][=Branch2][Ring2][Ring1][=C][Branch1][Ring2][S][Ring1][Branch1][C][S][C][Branch1][#C][C][=C][C][=Branch1][Branch1][=C][S][Ring1][Branch1][C][=C][S][Ring1][#Branch1][=C][C][=Ring1][=N][C][=C][O][Ring1]: 3/5
+Sampling from [S][C][=Branch2][Ring2][Branch2][=C][O][C][=C][C][Ring1][Branch1][=C][Ring1][Branch2][C][=C][C][=Branch2]: 4/5
+Sampling from [C][O][C][C][=Branch2][Ring2][S][=C][Branch1][P][S][C][=Ring1][Branch1][C][S][C][=C][C][=C][S][C][=Ring1][Branch2][Ring1][Branch1][C][=C][C][=C][O][C][Ring1][Branch1][=C][Branch1][Ring2][S][Ring1]: 5/5
+Best in generation:     CC(C=Cc1sc(-c2cc3sccc3c3ccccc23)c2occc12)Cc1c[nH]c(-c2scc3cc[nH]c23)c1   10.959099999999987
+Best overall:           CC(C=Cc1sc(-c2cc3sccc3c3ccccc23)c2occc12)Cc1c[nH]c(-c2scc3cc[nH]c23)c1   10.959099999999987
+Generation 4:
+Sampling from [C][C][Branch2][Ring2][=Branch1][C][=C][C][S][C][Branch2][Ring1][Ring2][C][=C][C][S][C][=C][C][=Ring1][Branch1][C][=C][C][=C][C][=C][Ring1][=N][Ring1][=Branch1][=C][O][C][=C][C][=Ring2][Ring1][Branch1]: 1/5
+Sampling from [S][C][=Branch2][Ring2][C][=C][C][=C][O][C][Ring1][Branch1][=C][Ring1][Branch2][C][=C][C][=Branch1][=N][=C][C][=Branch1][Ring2][=C][Ring1][=Branch1][S][C][=C][Ring1][=Branch1][C][=C]: 2/5
+Sampling from [C][=C][C][=C][NH1][C][Ring1][Branch1][=C][Branch2][Branch1][Branch2][C][=C][C][Branch2][Ring2][=N]: 3/5
+Sampling from [C][=Branch2][Ring1][Ring1][=C][C][=C][C][=C][C][Ring1][=Branch1][=C][C][=C][S][C][Ring1][Branch1][=C][Ring1][=N][C][S]: 4/5
+Sampling from [NH1][C][=C][Branch1][#Branch2][S][C][=C][Ring1][Branch1][C][=C][Ring1][Branch2][C][NH1][C][=C][Branch1][Ring2]: 5/5
+Best in generation:     C=C(C)C=Cc1sc(-c2cc3sccc3c3ccccc23)c2occc12   8.118500000000003
+Best overall:           CC(C=Cc1sc(-c2cc3sccc3c3ccccc23)c2occc12)Cc1c[nH]c(-c2scc3cc[nH]c23)c1   10.959099999999987
+Generation 5:
+Sampling from [C][C][Branch2][Ring2][=Branch1][C][=C][C][S][C][Branch2][Ring1][Ring2][C][=C][C][S][C][=C][C][=Ring1][Branch1][C][=C][C][=C][C][=C][Ring1][=N][Ring1][=Branch1]: 1/5
+Sampling from [C][=C][Branch2][Branch1][C][NH1][C][=C][Ring1][Branch1][C][C][Branch1][C][C][C][=C][C][=C][C][=Branch2]: 2/5
+Sampling from [C][Branch2][Branch1][Ring2][C][NH1][C][=C][Branch2][Ring2][=Branch2][C][C][Branch1][C][C][C][=C][C][S][C][=Branch1][#Branch2]: 3/5
+Sampling from [C][=C][Branch2][Ring1][C][C][=C][C][=C][C][=C][Ring1][=Branch1][C][=C][Ring1][#Branch2][S][C][=C][Ring1][Branch1][C][S][C][Branch2]: 4/5
+Sampling from [C][O][C][=C][C][Ring1][Branch1][=C][Branch2][Ring1][=C][C][=C][C][Branch2][Ring1][#Branch1][C][C][=C][NH1][C][=Branch1][Ring2][=C][Ring1][Branch1][C][S][C][=C][C]: 5/5
+Best in generation:     C=C(SCc1cc2sccc2c2ccccc12)c1sc(-c2scc3[nH]ccc23)c2ccsc12   10.44459999999999
+Best overall:           CC(C=Cc1sc(-c2cc3sccc3c3ccccc23)c2occc12)Cc1c[nH]c(-c2scc3cc[nH]c23)c1   10.959099999999987
+Generation 6:
+Sampling from [C][C][Branch2][Ring2][=Branch1][C][=C][C][S][C][Branch2][Ring1][Ring2][C][=C][C][S][C][=C][C][=Ring1][Branch1][C][=C][C][=C][C][=C][Ring1][=N][Ring1][=Branch1]: 1/5
+Sampling from [S][C][=C][C][=Branch2][Branch1][=N][=C][Ring1][Branch1][C][=C][C][Branch2][Ring2][#C][C][C][Branch1][C][C][C][=C][C][=C][C][=Branch2][Ring1][N][=C][Branch1][Ring2][S][Ring1][Branch1][C][=C][C][=C][Branch1][O][C][=C][C][=C][C][=C][Ring1][#Branch2][Ring1][=Branch1]: 2/5
+Sampling from [C][Branch2][Ring2][C][C][S][C][=Branch1][#Branch2][=C][O][C][=C][C][=Ring1][Branch2]: 3/5
+Sampling from [C][C][=C][Branch2][Branch1][=N][C][=C][Branch1][O][C][=C][Ring1][=Branch1][C][=C][C][=C][Ring1][=Branch1][C][S][C][Branch2][Ring1][#C][C][=C][C][Branch1][C][C][C][C][C][=C][Branch1][#C]: 4/5
+Sampling from [C][Branch2][Ring1][=Branch1][C][=C][NH1][C][Branch1][=N][C][S][C][=C][C][=C][NH1][C][Ring1][Branch1][=Ring1][Branch2][=C][Ring1][=N][C][Branch1][C][C][C][=C][C][=C][C][Branch1][=Branch1][O][C][=C][Ring1][Branch1]: 5/5
+Best in generation:     C=C1C(=CC(C)CCC2=C(c3cccc4ccccc34)CC=C2)C1SCc1ccc(C)c2ccccc12   10.229419999999992
+Best overall:           CC(C=Cc1sc(-c2cc3sccc3c3ccccc23)c2occc12)Cc1c[nH]c(-c2scc3cc[nH]c23)c1   10.959099999999987
+Generation 7:
+Sampling from [C][C][Branch2][Ring2][=Branch1][C][=C][C][S][C][Branch2][Ring1][Ring2][C][=C][C][S][C][=C][C][=Ring1][Branch1][C][=C][C][=C][C][=C][Ring1][=N]: 1/5
+Sampling from [C][Branch2][Ring2][=N][C][S][C][Branch2][Ring1][=N][C][=C][C][Branch1][C][C][C][C][C][=C][Branch1][=N][C][S][C][=C][C][=Ring1][Branch1][NH1][C][=C][Ring1][Branch1][NH1][C][=Ring1][=N]: 2/5
+Sampling from [C][C][=C][C][=Branch2][=Branch1][C][=C][Branch2][Branch1][Ring2][C][=C][C][=Branch2][Ring2][Branch2][=C][Branch2][Ring1][S][C][=C][C][Branch2][Ring1][=Branch2]: 3/5
+Sampling from [C][=C][Branch2][Ring2][Branch1][S][C][Branch2][Ring1][=Branch1][C][=C][C][=C][C][=C][C][Ring1][=Branch1][=C][C][Branch1][=Branch1][S][C][=C]: 4/5
+Sampling from [C][=Branch2][Ring1][=C][=C][C][Branch1][C][C][C][C][C][=C][Branch1][#C][C][=C][C][=Branch1][Branch1][=C][S][Ring1][Branch1][C][=C][NH1][Ring1][#Branch1][NH1][C][=Ring1]: 5/5
+Best in generation:     CC=CC=C(C)C=CC(C=CC=NSN)=C(C=CC(C)c1ccc(-c2cccs2)c2ccccc12)CC=N   9.791769999999998
+Best overall:           CC(C=Cc1sc(-c2cc3sccc3c3ccccc23)c2occc12)Cc1c[nH]c(-c2scc3cc[nH]c23)c1   10.959099999999987
+Generation 8:
+Sampling from [C][C][Branch2][Ring2][=Branch1][C][=C][C][S][C][Branch2][Ring1][Ring2][C][=C][C][S]: 1/5
+Sampling from [O][C][C][Branch1][Branch1][C][=C][Ring1][Branch1][=C][Branch2][Ring1][Branch2][S][C][=Ring1][#Branch1][C][=C][C][=C][C][=C][C][Ring1][=Branch1][=C][C][=C][S]: 2/5
+Sampling from [C][Branch2][Ring1][Branch2][C][C][=C][Branch1][#C][C][=C][C][=Branch1][Branch1][=C][S][Ring1][Branch1][C][=C][NH1][Ring1][#Branch1][NH1][C][=Ring1][=N][C][Branch1][C][C][C][=C][C][S][C][Branch2][Ring1][Branch2]: 3/5
+Sampling from [C][NH1][C][C][Branch1][Ring2][C][=Ring1][Branch1][=C][S][C][=Ring1][=Branch1][C][NH1][C][=C]: 4/5
+Sampling from [S][C][=C][C][=Branch2][Branch1][#Branch2][=C][Ring1][Branch1][C][NH1][C][=C][Branch2][Ring2][N][C][C][Branch2][Ring2][=Branch1][C][=C]: 5/5
+Best in generation:     C1=CNc2c(c3c[nH]cc3c3ccsc23)-c2ncc(-c3scc4ccoc34)cc2CC1   7.791100000000003
+Best overall:           CC(C=Cc1sc(-c2cc3sccc3c3ccccc23)c2occc12)Cc1c[nH]c(-c2scc3cc[nH]c23)c1   10.959099999999987
+Generation 9:
+Sampling from [C][C][Branch2][Ring2][=Branch1][C][=C][C][S][C][Branch2][Ring1][Ring2][C][=C][C][S][C][=C][C][=Ring1][Branch1][C][=C][C][=C][C][=C][Ring1][=N][Ring1][=Branch1][=C][O][C][=C][C][=Ring2][Ring1][Branch1][Ring1][Branch1][C][C]: 1/5
+Sampling from [C][=C][Branch1][O][S][C][=C][Ring1][Branch1][C][=C][NH1][Ring1][Branch2][C][NH1][C][=C][Branch1][Ring2][C][=Ring1][Branch1][C][C][Branch2][Ring2][=Branch1][C][=C][C][=C][C][=C][O][C][Ring1][Branch1][=C]: 2/5
+Sampling from [C][NH1][C][=C][C][Ring1][Branch1][=C][S][C][=Ring1][Branch2][C][NH1][C][=C][Branch2][Ring2][N][C]: 3/5
+Sampling from [NH1][C][C][Branch1][Branch1][C][=C][Ring1][Branch1][=C][S][C][=Ring1][#Branch1][C][NH1][C][=C][Branch2][Ring2][O][C][C][Branch1][C][C][C][=C][C][=C][C][=C][O][C][Ring1][Branch1][=C][Branch2][Ring1][Ring2]: 4/5
+Sampling from [C][C][=C][S][C][Branch2][Branch1][Branch2][C][NH1][C][=C][Branch2][Ring2][=N][C][C][Branch1][C][C][C][=C][C][S][C][Branch2]: 5/5
+Best in generation:     C1=C2C(=Cc3sc(-c4cc5sccc5c5ccccc45)c4occc34)C3CCC(=C23)C1   8.962899999999998
+Best overall:           CC(C=Cc1sc(-c2cc3sccc3c3ccccc23)c2occc12)Cc1c[nH]c(-c2scc3cc[nH]c23)c1   10.959099999999987
+
+real	1m0.271s
+user	2m51.771s
+sys	0m3.262s

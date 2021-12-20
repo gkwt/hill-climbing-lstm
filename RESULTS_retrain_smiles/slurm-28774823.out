@@ -1,0 +1,388 @@
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) openmpi/4.0.3
+
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+/home/garytom/env/invest-vae/lib/python3.7/site-packages/pytorch_lightning/trainer/configuration_validator.py:118: UserWarning: You defined a `validation_step` but have no `val_dataloader`. Skipping val loop.
+  rank_zero_warn("You defined a `validation_step` but have no `val_dataloader`. Skipping val loop.")
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Set SLURM handle signals.
+
+  | Name          | Type             | Params
+---------------------------------------------------
+0 | lstm          | LSTM             | 21.1 M
+1 | linear        | Linear           | 24.6 K
+2 | loss_fn       | CrossEntropyLoss | 0     
+3 | train_vae_acc | Accuracy         | 0     
+4 | val_vae_acc   | Accuracy         | 0     
+---------------------------------------------------
+21.1 M    Trainable params
+0         Non-trainable params
+21.1 M    Total params
+84.476    Total estimated model params size (MB)
+/home/garytom/env/invest-vae/lib/python3.7/site-packages/pytorch_lightning/trainer/data_loading.py:112: UserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  f"The dataloader, {name}, does not have many workers which may be a bottleneck."
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/home/garytom/env/invest-vae/lib/python3.7/site-packages/pytorch_lightning/trainer/data_loading.py:112: UserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 40 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  f"The dataloader, {name}, does not have many workers which may be a bottleneck."
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Set SLURM handle signals.
+
+  | Name          | Type             | Params
+---------------------------------------------------
+0 | lstm          | LSTM             | 21.1 M
+1 | linear        | Linear           | 24.6 K
+2 | loss_fn       | CrossEntropyLoss | 0     
+3 | train_vae_acc | Accuracy         | 0     
+4 | val_vae_acc   | Accuracy         | 0     
+---------------------------------------------------
+21.1 M    Trainable params
+0         Non-trainable params
+21.1 M    Total params
+84.476    Total estimated model params size (MB)
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Set SLURM handle signals.
+
+  | Name          | Type             | Params
+---------------------------------------------------
+0 | lstm          | LSTM             | 21.1 M
+1 | linear        | Linear           | 24.6 K
+2 | loss_fn       | CrossEntropyLoss | 0     
+3 | train_vae_acc | Accuracy         | 0     
+4 | val_vae_acc   | Accuracy         | 0     
+---------------------------------------------------
+21.1 M    Trainable params
+0         Non-trainable params
+21.1 M    Total params
+84.476    Total estimated model params size (MB)
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Set SLURM handle signals.
+
+  | Name          | Type             | Params
+---------------------------------------------------
+0 | lstm          | LSTM             | 21.1 M
+1 | linear        | Linear           | 24.6 K
+2 | loss_fn       | CrossEntropyLoss | 0     
+3 | train_vae_acc | Accuracy         | 0     
+4 | val_vae_acc   | Accuracy         | 0     
+---------------------------------------------------
+21.1 M    Trainable params
+0         Non-trainable params
+21.1 M    Total params
+84.476    Total estimated model params size (MB)
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Set SLURM handle signals.
+
+  | Name          | Type             | Params
+---------------------------------------------------
+0 | lstm          | LSTM             | 21.1 M
+1 | linear        | Linear           | 24.6 K
+2 | loss_fn       | CrossEntropyLoss | 0     
+3 | train_vae_acc | Accuracy         | 0     
+4 | val_vae_acc   | Accuracy         | 0     
+---------------------------------------------------
+21.1 M    Trainable params
+0         Non-trainable params
+21.1 M    Total params
+84.476    Total estimated model params size (MB)
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Set SLURM handle signals.
+
+  | Name          | Type             | Params
+---------------------------------------------------
+0 | lstm          | LSTM             | 21.1 M
+1 | linear        | Linear           | 24.6 K
+2 | loss_fn       | CrossEntropyLoss | 0     
+3 | train_vae_acc | Accuracy         | 0     
+4 | val_vae_acc   | Accuracy         | 0     
+---------------------------------------------------
+21.1 M    Trainable params
+0         Non-trainable params
+21.1 M    Total params
+84.476    Total estimated model params size (MB)
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Set SLURM handle signals.
+
+  | Name          | Type             | Params
+---------------------------------------------------
+0 | lstm          | LSTM             | 21.1 M
+1 | linear        | Linear           | 24.6 K
+2 | loss_fn       | CrossEntropyLoss | 0     
+3 | train_vae_acc | Accuracy         | 0     
+4 | val_vae_acc   | Accuracy         | 0     
+---------------------------------------------------
+21.1 M    Trainable params
+0         Non-trainable params
+21.1 M    Total params
+84.476    Total estimated model params size (MB)
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Set SLURM handle signals.
+
+  | Name          | Type             | Params
+---------------------------------------------------
+0 | lstm          | LSTM             | 21.1 M
+1 | linear        | Linear           | 24.6 K
+2 | loss_fn       | CrossEntropyLoss | 0     
+3 | train_vae_acc | Accuracy         | 0     
+4 | val_vae_acc   | Accuracy         | 0     
+---------------------------------------------------
+21.1 M    Trainable params
+0         Non-trainable params
+21.1 M    Total params
+84.476    Total estimated model params size (MB)
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Set SLURM handle signals.
+
+  | Name          | Type             | Params
+---------------------------------------------------
+0 | lstm          | LSTM             | 21.1 M
+1 | linear        | Linear           | 24.6 K
+2 | loss_fn       | CrossEntropyLoss | 0     
+3 | train_vae_acc | Accuracy         | 0     
+4 | val_vae_acc   | Accuracy         | 0     
+---------------------------------------------------
+21.1 M    Trainable params
+0         Non-trainable params
+21.1 M    Total params
+84.476    Total estimated model params size (MB)
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Set SLURM handle signals.
+
+  | Name          | Type             | Params
+---------------------------------------------------
+0 | lstm          | LSTM             | 21.1 M
+1 | linear        | Linear           | 24.6 K
+2 | loss_fn       | CrossEntropyLoss | 0     
+3 | train_vae_acc | Accuracy         | 0     
+4 | val_vae_acc   | Accuracy         | 0     
+---------------------------------------------------
+21.1 M    Trainable params
+0         Non-trainable params
+21.1 M    Total params
+84.476    Total estimated model params size (MB)
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Total numbers searched per iteration: 500
+Generation 0:
+Sampling from c1cc2c(-c3sc(-: 1/10
+Sampling from c1cc2c(-c3sc(-c4scc5c: 2/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sccc34)sc(-c: 3/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45)c4sc: 4/10
+Sampling from c1cc2c(-c3sc(-c4scc5ccsc45: 5/10
+Sampling from c1cc(-c2sc(-c3sc(-c4s: 6/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34: 7/10
+Sampling from c1cc(-c2sc(-c3sc(-: 8/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3s: 9/10
+Sampling from c1cc(-c2sc(-c3sc(-c: 10/10
+Best in generation:     c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1                           11.730899999999991
+Best overall:           c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1                           11.730899999999991
+Epoch: 9        validation loss: 0.10318945348262787
+--------------------------------------------------------------------------------
+DATALOADER:0 VALIDATE RESULTS
+{'val_accuracy': 0.9564390182495117, 'val_loss': 0.10325665026903152}
+--------------------------------------------------------------------------------
+Generation 1:
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc2: 1/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2csc: 2/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3: 3/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cs: 4/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc: 5/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c: 6/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4c: 7/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc: 8/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c: 9/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45): 10/10
+Best in generation:     c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1                           11.730899999999991
+Best overall:           c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1                           11.730899999999991
+Epoch: 9        validation loss: 0.043475620448589325
+--------------------------------------------------------------------------------
+DATALOADER:0 VALIDATE RESULTS
+{'val_accuracy': 0.9855853915214539, 'val_loss': 0.04285598546266556}
+--------------------------------------------------------------------------------
+Generation 2:
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4c: 1/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1  : 2/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1: 3/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4cc: 4/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc: 5/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1   : 6/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4cc: 7/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1   : 8/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45: 9/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23): 10/10
+Best in generation:     c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1                           11.730899999999991
+Best overall:           c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1                           11.730899999999991
+Epoch: 9        validation loss: 0.027385078370571136
+--------------------------------------------------------------------------------
+DATALOADER:0 VALIDATE RESULTS
+{'val_accuracy': 0.9919999837875366, 'val_loss': 0.027276545763015747}
+--------------------------------------------------------------------------------
+Generation 3:
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccs: 1/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1: 2/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3c: 3/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc: 4/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sc: 5/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cs: 6/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc: 7/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34: 8/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c: 9/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23): 10/10
+Best in generation:     c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1                           11.730899999999991
+Best overall:           c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1                           11.730899999999991
+Epoch: 9        validation loss: 0.021883346140384674
+--------------------------------------------------------------------------------
+DATALOADER:0 VALIDATE RESULTS
+{'val_accuracy': 0.9943902492523193, 'val_loss': 0.021838078275322914}
+--------------------------------------------------------------------------------
+Generation 4:
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23): 1/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc4: 2/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4: 3/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc3: 4/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34): 5/10
+Sampling from c1cc(-c2sc(-c3sc(-c4sc: 6/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5scc: 7/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc: 8/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5: 9/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1   : 10/10
+Best in generation:     c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1                           11.730899999999991
+Best overall:           c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1                           11.730899999999991
+Epoch: 9        validation loss: 0.023358330130577087
+--------------------------------------------------------------------------------
+DATALOADER:0 VALIDATE RESULTS
+{'val_accuracy': 0.9935609698295593, 'val_loss': 0.023495884612202644}
+--------------------------------------------------------------------------------
+Generation 5:
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23: 1/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc: 2/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sc: 3/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4: 4/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45: 5/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c: 6/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3cc: 7/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c: 8/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3cc: 9/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45: 10/10
+Best in generation:     c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1                           11.730899999999991
+Best overall:           c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1                           11.730899999999991
+Epoch: 9        validation loss: 0.02313268929719925
+--------------------------------------------------------------------------------
+DATALOADER:0 VALIDATE RESULTS
+{'val_accuracy': 0.9938780665397644, 'val_loss': 0.02299036830663681}
+--------------------------------------------------------------------------------
+Generation 6:
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c: 1/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc: 2/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc: 3/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34: 4/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4c: 5/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc: 6/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1: 7/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1  : 8/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4cc: 9/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c: 10/10
+Best in generation:     c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1                           11.730899999999991
+Best overall:           c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1                           11.730899999999991
+Epoch: 9        validation loss: 0.021812953054904938
+--------------------------------------------------------------------------------
+DATALOADER:0 VALIDATE RESULTS
+{'val_accuracy': 0.9943414926528931, 'val_loss': 0.02167654037475586}
+--------------------------------------------------------------------------------
+Generation 7:
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c: 1/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2c: 2/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1  : 3/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5s: 4/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc2: 5/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23: 6/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1  : 7/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23: 8/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2: 9/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c: 10/10
+Best in generation:     c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1                           11.730899999999991
+Best overall:           c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1                           11.730899999999991
+Epoch: 9        validation loss: 0.01153692789375782
+--------------------------------------------------------------------------------
+DATALOADER:0 VALIDATE RESULTS
+{'val_accuracy': 0.9974877834320068, 'val_loss': 0.011585830710828304}
+--------------------------------------------------------------------------------
+Generation 8:
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc3: 1/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3c: 2/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4cc: 3/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc: 4/10
+Sampling from c1cc(-c2sc(-c3sc(-c4: 5/10
+Sampling from c1cc(-c2sc(-c3sc(-c4sc: 6/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc: 7/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc: 8/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1: 9/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2: 10/10
+Best in generation:     c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1                           11.730899999999991
+Best overall:           c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1                           11.730899999999991
+Epoch: 9        validation loss: 0.012124829925596714
+--------------------------------------------------------------------------------
+DATALOADER:0 VALIDATE RESULTS
+{'val_accuracy': 0.9973414540290833, 'val_loss': 0.012208875268697739}
+--------------------------------------------------------------------------------
+Generation 9:
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc4: 1/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5scc: 2/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4cc: 3/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4c: 4/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23): 5/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3cc: 6/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2csc: 7/10
+Sampling from c1cc(-c2sc(-c3sc(-c4sc: 8/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2: 9/10
+Sampling from c1cc(-c2sc(-c3sc(-c4scc5sccc: 10/10
+Best in generation:     c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1                           11.730899999999991
+Best overall:           c1cc(-c2sc(-c3sc(-c4scc5sccc45)c4ccsc34)c3ccsc23)c2cscc2c1                           11.730899999999991
+Epoch: 9        validation loss: 0.01313820295035839
+--------------------------------------------------------------------------------
+DATALOADER:0 VALIDATE RESULTS
+{'val_accuracy': 0.9969268441200256, 'val_loss': 0.013118477538228035}
+--------------------------------------------------------------------------------
+
+real	3m47.370s
+user	9m1.780s
+sys	0m33.870s
