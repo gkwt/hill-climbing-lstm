@@ -3,7 +3,7 @@
 #SBATCH --gres=gpu:1              # Number of GPU(s) per node
 #SBATCH --cpus-per-task=6         # CPU cores/threads
 #SBATCH --mem=12000M              # memory per node
-#SBATCH --time=0-01:30            # time (DD-HH:MM)
+#SBATCH --time=0-00:30            # time (DD-HH:MM)
 export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 
 module load python/3.7 scipy-stack
@@ -12,7 +12,7 @@ module load rdkit/2021.03.3
 
 source ~/env/invest-vae/bin/activate
 
-time python train.py
+time python climb.py
 
 deactivate
 
