@@ -12,6 +12,7 @@ source ~/env/hill-climbing/bin/activate
 pip install --upgrade pip
 pip install pytorch-lightning
 pip install selfies
+pip install seaborn
 
 deactivate
 
