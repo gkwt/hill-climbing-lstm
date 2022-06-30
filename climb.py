@@ -98,14 +98,16 @@ for gen in range(num_generations):
         if string_type == 'selfies':
             # randomize the smiles before encoding to selfies to increase diversity
             # make sure the new selfies can be encoded by the datamodule
-            while len(rand_string) < num_randomize:
+            rand_sfs = []
+            while len(rand_sfs) < num_randomize:
                 smi_list = utils.randomize_smiles(row['smiles'], num_randomize)
                 sfs_list = [sf.encoder(s) for s in smi_list]
                 try:
                     _ = [dm.encode_string(s) for s in sfs_list]
-                    rand_string.extend(sfs_list)
+                    rand_sfs.extend(sfs_list)
                 except:
                     print('Error with randomized SELFIES encoding.')
+            rand_string.extend(rand_sfs)
         else:
             rand_string.extend([row['smiles']]*num_randomize)
 
